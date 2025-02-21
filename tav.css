@@ -1,4 +1,12 @@
-.metallo {color:black!important;background-color: gray!important;}
-.semimetallo {color:black!important;background-color: lightskyblue!important;}
-.non-metallo {color:black!important;background-color: #ffeb3b!important;}
-.gas-nobile {color:lightblue!important;background-color: greenyellow!important;}
+.met {background-color: lightgray;}
+.sem {background-color: lightblue;}
+.non {background-color: gold;}
+.nob {background-color: lightgreen;}
+.empty {empty-cells: hide;}
+.val {font-weight: normal;}
+.left {text-align: right;}
+
+body {font-family: roboto;background: #000;}
+td {text-align: left; font-weight: bold; width: 101px; border-radius: 10px;}
+p {text-align: center;}
+table {border-spacing: 5px;}
