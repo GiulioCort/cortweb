@@ -1,0 +1,13 @@
+.met {background-color: lightgray;}
+.sem {background-color: lightblue;}
+.non {background-color: gold;}
+.nob {background-color: lightgreen;}
+.empty {empty-cells: hide;}
+.val {font-weight: normal;}
+.left {text-align: right;}
+
+body {font-family: roboto;background: #000;}
+td {text-align: left; font-weight: bold; width: 101px; border-radius: 10px;}
+th {border-style: none;}
+p {text-align: center;}
+table {border-spacing: 5px;}
