@@ -11,3 +11,5 @@ td {text-align: left; font-weight: bold; width: 101px; border-radius: 10px;}
 th {border-style: none;}
 p {text-align: center;}
 table {border-spacing: 5px;}
+.norm {font-size: 18px;}
+.barra {color: #ffc107;}
