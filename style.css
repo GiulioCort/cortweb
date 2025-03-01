@@ -3,9 +3,13 @@ body {
     font-family: roboto;
     color: white;
 }
-
-p, h1, h2, h3, h4, h5, h6, li {color: rgb(189, 189, 189);}
+p, h2, h3, h4, h5, h6, li {color: rgb(206, 206, 206);}
 a {color:red;}
-p {font-size: 16px;}
+p, a, div {font-size: 18px;}
 
-.w3-code{width:auto;background-color:#af9c9c;padding:8px 12px;border-left:4px solid yellow;word-wrap:break-word}
+.barra {color: #ffc107;}
+.w3-code{width:auto;
+    background-color:#af9c9c;
+    padding:8px 12px;
+    border-left:4px solid #ffc107;
+    word-wrap:break-word}
