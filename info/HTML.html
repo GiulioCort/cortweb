@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
     <meta charset = "utf-8">
     <title>HTML Home</title>
-    <link rel="icon" type="image/x-icon" href="Iconasito.png">
+    <link rel="icon" type="image/x-icon" href="../Iconasito.png">
     <link rel="stylesheet" href="../style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
@@ -11,42 +11,159 @@
 </head>
 
 <body>
-    <div class="w3-bar w3-black">
-        <a href="../index.html" class="w3-bar-item w3-button w3-hover-yellow">Home</a>
-        <a href="Python.html" class="w3-bar-item w3-button w3-hover-yellow">Python</a>
-        <a href="#" class="w3-bar-item w3-button w3-hover-yellow">HTML</a>
+    <style>
+        a {text-decoration: none;}
+    </style>
+    <div class="w3-bar barra">
+        <a href="../index.html" class="w3-bar-item w3-button w3-hover-amber">Home</a>
+        <a href="Python.html" class="w3-bar-item w3-button w3-hover-amber">Python</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-amber">HTML</a>
+        <a href="../login.html" class="w3-bar-item w3-right w3-button w3-hover-amber"><i></i>Login</a>
     </div>
 
-    <div class="w3-row w3-container">
+    <div class="w3-row w3-container w3-twothird">
         <h1>HTML</h1>
-        <a class="w3-button w3-round-large w3-yellow" href="https://classroom.google.com/w/NzQyMTQyOTM1ODAw/tc/NzQyMjMyOTI2MzA0" target="_blank">Classroom</a>
+        <a class="w3-button w3-round-large w3-amber" href="https://classroom.google.com/w/NzQyMTQyOTM1ODAw/tc/NzQyMjMyOTI2MzA0" target="_blank">Classroom</a>
         <p></p>
-        <a href="html/html_inizio.html">HTML Introduzione</a><br>
-        <a href="html/html_elementi.html">HTML Elementi</a><br>
-        <a href="../nfound.html">HTML Attributi</a><br>
-        <a href="../nfound.html">HTML Commenti</a><br>
-        <a href="../nfound.html">HTML Charset</a><br>
-        <a href="../nfound.html">HTML Intestazioni</a><br>
-        <a href="../nfound.html">HTML Paragrafi</a><br>
-        <a href="../nfound.html">HTML Formattazione</a><br>
-        <a href="../nfound.html">HTML Stile</a><br>
-        <a href="../nfound.html">HTML Citazioni</a><br>
-        <a href="../nfound.html">HTML Colori</a><br>
-        <a href="../nfound.html">HTML CSS</a><br>
-        <a href="../nfound.html">HTML JavaScript</a><br>
-        <a href="../nfound.html">HTML Link</a><br>
-        <a href="../nfound.html">HTML Immagini</a><br>
-        <a href="../nfound.html">HTML Icone</a><br>
-        <a href="../nfound.html">HTML Titoli delle pagine</a><br>
-        <a href="../nfound.html">HTML Tabelle</a><br>
-        <a href="../nfound.html">HTML Liste</a><br>
-        <a href="../nfound.html">HTML Container</a><br>
-        <a href="../nfound.html">HTML Classi</a><br>
-        <a href="../nfound.html">HTML Id</a><br>
-        <a href="../nfound.html">HTML Lframes</a><br>
-        
-        <p></p><br><br>
-        <a href="html/html_esempi.html">Tutti gli esempi</a>
+        <button onclick="myFunction('Demo1')" class="w3-button w3-round-large w3-block w3-white w3-left-align">Introduzione e basi</button>
+        <div id="Demo1" class="w3-hide">
+            <ul class="w3-ul">
+            <li><a href="html/html_inizio.html">HTML Introduzione</a></li>
+            <li><a href="html/html_elementi.html">HTML Elementi</a></li>
+            <li><a href="html/html_attributi.html">HTML Attributi</a></li>
+            <li><a href="../404.html">HTML Commenti</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo2')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Formattazione e stile</button>
+        <div id="Demo2" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Intestazioni</a></li>
+            <li><a href="../404.html">HTML Paragrafi</a></li>
+            <li><a href="../404.html">HTML Stile</a></li>
+            <li><a href="../404.html">HTML Formattazione</a></li>
+            <li><a href="../404.html">HTML Citazioni</a></li>
+            <li><a href="../404.html">HTML CSS</a></li>
+            <li><a href="../404.html">HTML Logo</a></li>
+            <li><a href="../404.html">HTML Titoli</a></li>
+            <li><a href="../404.html">HTML Blocchi</a></li>
+            <li><a href="../404.html">HTML Div</a></li>
+            <li><a href="../404.html">HTML Classi</a></li>
+            <li><a href="../404.html">HTML Id</a></li>
+            <li><a href="../404.html">HTML Percorsi</a></li>
+            <li><a href="../404.html">HTML Head</a></li>
+            <li><a href="../404.html">HTML Layout</a></li>
+            <li><a href="../404.html">HTML Reattività</a></li>
+            <li><a href="../404.html">HTML Semantica</a></li>
+            <li><a href="../404.html">HTML Guida di stile</a></li>
+            <li><a href="../404.html">HTML Entità</a></li>
+            <li><a href="../404.html">HTML Simboli</a></li>
+            <li><a href="../404.html">HTML Charset</a></li>
+            <li><a href="../404.html">HTML URL</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo3')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Colori</button>
+        <div id="Demo3" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Colori</a></li>
+            <li><a href="../404.html">HTML RGB</a></li>
+            <li><a href="../404.html">HTML HEX</a></li>
+            <li><a href="../404.html">HTML HSL</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo4')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Link</button>
+        <div id="Demo4" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Link</a></li>
+            <li><a href="../404.html">HTML Colori dei link</a></li>
+            <li><a href="../404.html">HTML Link segnalibri</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo5')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Immagini</button>
+        <div id="Demo5" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Immagini</a></li>
+            <li><a href="../404.html">HTML Immagini di sfondo</a></li>
+            <li><a href="../404.html">HTML Picture</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo6')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Tabelle</button>
+        <div id="Demo6" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Tabelle</a></li>
+            <li><a href="../404.html">HTML Bordi di una tabella</a></li>
+            <li><a href="../404.html">HTML Grandezza di una tabella</a></li>
+            <li><a href="../404.html">HTML Intestazioni di una tabella</a></li>
+            <li><a href="../404.html">HTML Padding</a></li>
+            <li><a href="../404.html">HTML Colspan e rowspan</a></li>
+            <li><a href="../404.html">HTML Stile di una tabella</a></li>
+            <li><a href="../404.html">HTML Colgroup</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo7')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Liste</button>
+        <div id="Demo7" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Liste</a></li>
+            <li><a href="../404.html">HTML Liste ordinate</a></li>
+            <li><a href="../404.html">HTML Liste non ordinate</a></li>
+            <li><a href="../404.html">HTML Altre liste</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo8')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Altri elementi</button>
+        <div id="Demo8" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Lframes</a></li>
+            <li><a href="../404.html">HTML Codici</a></li>
+            <li><a href="../404.html">HTML Emoji</a></li>
+            </ul>  
+        </div><br>
+        <button onclick="myFunction('Demo9')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Logica</button>
+        <div id="Demo9" class="w3-hide  ">
+            <ul class="w3-ul">
+            <li><a href="../404.html">HTML Javascript</a></li>
+            </ul>  
+        </div><br>
+
+        <br><br><br>
+        <table class="w3-table-all w3-hoverable" style="color: black;">
+            <tr>
+                <th>Lezioni</th>
+            </tr>
+                <tr><td><a href="html/html_inizio.html">HTML Introduzione</a></td></tr>
+                <tr><td><a href="html/html_elementi.html">HTML Elementi</a></td></tr>
+                <tr><td><a href="html/html_attributi.html">HTML Attributi</a></td></tr>
+                <tr><td><a href="../404.html">HTML Commenti</a></td></tr>
+                <tr><td><a href="../404.html">HTML Charset</a></td></tr>
+                <tr><td><a href="../404.html">HTML Intestazioni</a></td></tr>
+                <tr><td><a href="../404.html">HTML Paragrafi</a></td></tr>
+                <tr><td><a href="../404.html">HTML Formattazione</a></td></tr>
+                <tr><td><a href="../404.html">HTML Stile</a></td></tr>
+                <tr><td><a href="../404.html">HTML Citazioni</a></td></tr>
+                <tr><td><a href="../404.html">HTML Colori</a></td></tr>
+                <tr><td><a href="../404.html">HTML CSS</a></td></tr>
+                <tr><td><a href="../404.html">HTML JavaScript</a></td></tr>
+                <tr><td><a href="../404.html">HTML Link</a></td></tr>
+                <tr><td><a href="../404.html">HTML Immagini</a></td></tr>
+                <tr><td><a href="../404.html">HTML Logo</a></td></tr>
+                <tr><td><a href="../404.html">HTML Titoli</a></td></tr>
+                <tr><td><a href="../404.html">HTML Tabelle</a></td></tr>
+                <tr><td><a href="../404.html">HTML Liste</a></td></tr>
+                <tr><td><a href="../404.html">HTML Div</a></td></tr>
+                <tr><td><a href="../404.html">HTML Classi</a></td></tr>
+                <tr><td><a href="../404.html">HTML Id</a></td></tr>
+                <tr><td><a href="../404.html">HTML Lframes</a></td></tr>
+        </table>
+        <br><br>
+        <a href="html/html_esempi.html">Tutti gli esempi</a><br><br>
+    <script>
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            } else { 
+            x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
     </div>
 </body>
 </html>
