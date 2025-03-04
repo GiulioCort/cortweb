@@ -11,6 +11,8 @@
 </head>
 <body>
     <div class="w3-bar barra">
+        <span title="Barra laterale" style="display: none;" id="open" onclick="apri()" class="w3-button w3-display w3-left w3-hover-amber">&#9776;</span>
+        <span title="Chiudi" id="close" onclick="chiudi()" class="w3-button w3-display w3-left w3-hover-amber">&#9776;</span>
         <a href="../index.html" class="w3-bar-item w3-button w3-hover-amber">Home</a>
         <div class="w3-dropdown-hover">
             <button class="w3-button">Informatica</button>
@@ -22,8 +24,45 @@
         <a href="../login.html" class="w3-bar-item w3-right w3-button w3-hover-amber"><i></i>Login</a>
     </div>
 
-    <div class="w3-container w3-row w3-twothird">
-        <h1>Ciao Francesco</h1>
+
+    <div class="w3-sidebar w3-card-4 w3-round-large w3-animate-left" style="width:200px; background-color:#181817" id="sidebar">
+        <div class="w3-bar">
+            <span class="w3-bar-item w3-padding-16">Contenuti</span>
+        </div>
+        <div class="w3-bar-block barra">
+            <a class="w3-bar-item w3-button" href="#c1">Correzione tabellina - Python</a>
+            <a class="w3-bar-item w3-button" href="#c2">Correzione Indovina il numero - Python</a>
+        </div>
     </div>
+
+
+    <div class="w3-container w3-twothird" id="main" style="margin-left: 200px;">
+        <h1>Ciao Francesco</h1>
+        <div class="" id="c1">
+            <h3>Correzione: Tabellina - Python</h3>
+            <img class="w3-image" src="correz/tabellpy.png">
+        </div>
+        <hr>
+        <div id="c2">
+            <h3>Correzione: Indovina il numero - Python</h3>
+            <img class="w3-image" src="correz/indovinapy.png" alt="">
+        </div>
+    </div>
+
+    <script>
+        function apri() {
+            document.getElementById("main").style.marginLeft = "180px";
+            document.getElementById("sidebar").style.width = "180px";
+            document.getElementById("sidebar").style.display = "block";
+            document.getElementById("open").style.display = "none";
+            document.getElementById("close").style.display = "block";
+        }
+        function chiudi() {
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("sidebar").style.display = "none";
+            document.getElementById("open").style.display = "inline-block";
+            document.getElementById("close").style.display = "none";
+        }
+    </script>
 </body>
 </html>
