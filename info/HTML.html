@@ -13,6 +13,8 @@
 <body>
     <style>
         a {text-decoration: none;}
+        .elenco {background-color:#181817; color: white;}
+        .tab {background-color: #181817;}
     </style>
     <div class="w3-bar barra">
         <a href="../index.html" class="w3-bar-item w3-button w3-hover-amber">Home</a>
@@ -25,7 +27,7 @@
         <h1>HTML</h1>
         <a class="w3-button w3-round-large w3-amber" href="https://classroom.google.com/w/NzQyMTQyOTM1ODAw/tc/NzQyMjMyOTI2MzA0" target="_blank">Classroom</a>
         <p></p>
-        <button onclick="myFunction('Demo1')" class="w3-button w3-round-large w3-block w3-white w3-left-align">Introduzione e basi</button>
+        <button onclick="myFunction('Demo1')" class="w3-button w3-round-large w3-block elenco w3-left-align">Introduzione e basi</button>
         <div id="Demo1" class="w3-hide">
             <ul class="w3-ul">
             <li><a href="html/html_inizio.html">HTML Introduzione</a></li>
@@ -34,7 +36,7 @@
             <li><a href="../404.html">HTML Commenti</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo2')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Formattazione e stile</button>
+        <button onclick="myFunction('Demo2')" class="w3-button w3-round-large  w3-block elenco w3-left-align elenco">Formattazione e stile</button>
         <div id="Demo2" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Intestazioni</a></li>
@@ -61,7 +63,7 @@
             <li><a href="../404.html">HTML URL</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo3')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Colori</button>
+        <button onclick="myFunction('Demo3')" class="w3-button w3-round-large  w3-block elenco w3-left-align ">Colori</button>
         <div id="Demo3" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Colori</a></li>
@@ -70,7 +72,7 @@
             <li><a href="../404.html">HTML HSL</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo4')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Link</button>
+        <button onclick="myFunction('Demo4')" class="w3-button w3-round-large  w3-block elenco w3-left-align ">Link</button>
         <div id="Demo4" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Link</a></li>
@@ -78,7 +80,7 @@
             <li><a href="../404.html">HTML Link segnalibri</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo5')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Immagini</button>
+        <button onclick="myFunction('Demo5')" class="w3-button w3-round-large  w3-block elenco w3-left-align ">Immagini</button>
         <div id="Demo5" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Immagini</a></li>
@@ -86,7 +88,7 @@
             <li><a href="../404.html">HTML Picture</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo6')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Tabelle</button>
+        <button onclick="myFunction('Demo6')" class="w3-button w3-round-large  w3-block elenco w3-left-align ">Tabelle</button>
         <div id="Demo6" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Tabelle</a></li>
@@ -99,7 +101,7 @@
             <li><a href="../404.html">HTML Colgroup</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo7')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Liste</button>
+        <button onclick="myFunction('Demo7')" class="w3-button w3-round-large  w3-block elenco w3-left-align ">Liste</button>
         <div id="Demo7" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Liste</a></li>
@@ -108,7 +110,7 @@
             <li><a href="../404.html">HTML Altre liste</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo8')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Altri elementi</button>
+        <button onclick="myFunction('Demo8')" class="w3-button w3-round-large  w3-block elenco w3-left-align ">Altri elementi</button>
         <div id="Demo8" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Lframes</a></li>
@@ -116,7 +118,7 @@
             <li><a href="../404.html">HTML Emoji</a></li>
             </ul>  
         </div><br>
-        <button onclick="myFunction('Demo9')" class="w3-button w3-round-large  w3-block w3-white w3-left-align">Logica</button>
+        <button onclick="myFunction('Demo9')" class="w3-button w3-round-large w3-block elenco w3-left-align ">Logica</button>
         <div id="Demo9" class="w3-hide  ">
             <ul class="w3-ul">
             <li><a href="../404.html">HTML Javascript</a></li>
@@ -124,45 +126,45 @@
         </div><br>
 
         <br><br><br>
-        <table class="w3-table-all w3-hoverable" style="color: black;">
-            <tr>
+        <table class="w3-table-all w3-hoverable" style="color: black; border-color:#181817">
+            <tr style="background-color: #181817; color: white;">
                 <th>Tutte le lezioni</th>
             </tr>
-                <tr><td><a href="html/html_inizio.html">HTML Introduzione</a></td></tr>
-                <tr><td><a href="html/html_elementi.html">HTML Elementi</a></td></tr>
-                <tr><td><a href="html/html_attributi.html">HTML Attributi</a></td></tr>
-                <tr><td><a href="../404.html">HTML Commenti</a></td></tr>
-                <tr><td><a href="../404.html">HTML Intestazioni</a></td></tr>
-                <tr><td><a href="../404.html">HTML Paragrafi</a></td></tr>
-                <tr><td><a href="../404.html">HTML Stile</a></td></tr>
-                <tr><td><a href="../404.html">HTML Formattazione</a></td></tr>
-                <tr><td><a href="../404.html">HTML Citazioni</a></td></tr>
-                <tr><td><a href="../404.html">HTML Colori</a></td></tr>
-                <tr><td><a href="../404.html">HTML CSS</a></td></tr>
-                <tr><td><a href="../404.html">HTML Link</a></td></tr>
-                <tr><td><a href="../404.html">HTML Immagini</a></td></tr>
-                <tr><td><a href="../404.html">HTML Logo</a></td></tr>
-                <tr><td><a href="../404.html">HTML Titoli</a></td></tr>
-                <tr><td><a href="../404.html">HTML Tabelle</a></td></tr>
-                <tr><td><a href="../404.html">HTML Liste</a></td></tr>
-                <tr><td><a href="../404.html">HTML Blocchi</a></td></tr>
-                <tr><td><a href="../404.html">HTML Div</a></td></tr>
-                <tr><td><a href="../404.html">HTML Classi</a></td></tr>
-                <tr><td><a href="../404.html">HTML Id</a></td></tr>
-                <tr><td><a href="../404.html">HTML Lframes</a></td></tr>
-                <tr><td><a href="../404.html">HTML JavaScript</a></td></tr>
-                <tr><td><a href="../404.html">HTML Percorsi</a></td></tr>
-                <tr><td><a href="../404.html">HTML Head</a></td></tr>
-                <tr><td><a href="../404.html">HTML Layout</a></td></tr>
-                <tr><td><a href="../404.html">HTML Reattività</a></td></tr>
-                <tr><td><a href="../404.html">HTML Codici</a></td></tr>
-                <tr><td><a href="../404.html">HTML Semantica</a></td></tr>
-                <tr><td><a href="../404.html">HTML Guida di stile</a></td></tr>
-                <tr><td><a href="../404.html">HTML Entità</a></td></tr>
-                <tr><td><a href="../404.html">HTML Simboli</a></td></tr>
-                <tr><td><a href="../404.html">HTML Emoji</a></td></tr>
-                <tr><td><a href="../404.html">HTML Charset</a></td></tr>
-                <tr><td><a href="../404.html">HTML URL</a></td></tr>
+                <tr class="w3-gray"><td><a href="html/html_inizio.html">HTML Introduzione</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="html/html_elementi.html">HTML Elementi</a></td></tr>
+                <tr class="w3-gray"><td><a href="html/html_attributi.html">HTML Attributi</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Commenti</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Intestazioni</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Paragrafi</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Stile</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Formattazione</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Citazioni</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Colori</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML CSS</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Link</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Immagini</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Logo</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Titoli</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Tabelle</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Liste</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Blocchi</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Div</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Classi</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Id</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Lframes</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML JavaScript</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Percorsi</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Head</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Layout</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Reattività</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Codici</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Semantica</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Guida di stile</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Entità</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Simboli</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML Emoji</a></td></tr>
+                <tr style="background-color: #181817; color: white;"><td><a href="../404.html">HTML Charset</a></td></tr>
+                <tr class="w3-gray"><td><a href="../404.html">HTML URL</a></td></tr>
         </table>
         <br><br>
         <a href="html/html_esempi.html">Tutti gli esempi</a><br><br>
