@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta lang="it">
+    <title>HTML Formattazione</title>
+    <link rel="icon" type="image/x-icon" href="../../Iconasito.png">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="w3-bar barra">
+        <a href="../../index.html" class="w3-bar-item w3-button w3-hover-amber">Home</a>
+        <a href="../Python.html" class="w3-bar-item w3-button w3-hover-amber">Python</a>
+        <a href="../HTML.html" class="w3-bar-item w3-button w3-hover-amber">HTML</a>
+    </div>
+    <div class="w3-twothird">
+        <div class="w3-row w3-padding w3-container">
+            <a href="html_paragrafi.html" class="w3-button w3-amber w3-round-large w3-left"><i class="fa fa-arrow-left"></i> Precedente</a>
+            <!--<a href="html_formattazione.html" class="w3-button w3-amber w3-round-large w3-right">Successivo <i class="fa fa-arrow-right"></i></a>-->
+        </div>
+        <div class="w3-row w3-container">
+            <h1>Formattazione</h1>
+            <p>HTML contiene diversi elementi per modificare il testo.</p>
+            <h2>Elementi di Formattazione</h2>
+            <p>Attraverso questo tipo di elementi è possibile indicare al browser con quale stile visualizzare una parte di testo, racchiusa tra il tag iniziale e il tag finale.</p>
+            <p>Ecco alcuni esempi di elementi di formattazione:</p>
+            <table class="w3-table grig w3-bordered">
+                <tr>
+                    <th>Elemento</th>
+                    <th>Esempio</th>
+                    <th>Utilizzo</th>
+                </tr>
+                <tr>
+                    <td>&lt;b&gt;</td>
+                    <td><b>Esempio</b></td>
+                    <td>Stile grassetto.</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td><em>Esempio</em></td>
+                    <td>Distingue il testo attraverso lo stile corsivo.</td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;</td>
+                    <td><i>Esempio</i></td>
+                    <td>Stile corsivo.</td>
+                </tr>
+                <tr>
+                    <td>&lt;small&gt;</td>
+                    <td><small>Esempio</small></td>
+                    <td>Testo più piccolo.</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td><strong>Esempio</strong></td>
+                    <td>Rende il testo più importante utilizzando lo stile corsivo.</td>
+                </tr>
+                <tr>
+                    <td>&lt;sub&gt;</td>
+                    <td><sub>Esempio</sub></td>
+                    <td>Visualizza il testo come pedice.</td>
+                </tr>
+                <tr>
+                    <td>&lt;sup&gt;</td>
+                    <td><sup>Esempio</sup></td>
+                    <td>Visualizza il testo come apice.</td>
+                </tr>
+                <tr>
+                    <td>&lt;u&gt;</td>
+                    <td><u>Esempio</u></td>
+                    <td>Stile sottolineato.</td>
+                </tr>
+                <tr>
+                    <td>&lt;del&gt;</td>
+                    <td><del>Esempio</del></td>
+                    <td>Visualizza il testo come se fosse stato eliminato.</td>
+                </tr>
+                <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td><mark>Esempio</mark></td>
+                    <td>Stile evidenziato.</td>
+                </tr>
+            </table>
+            <br>
+            <h2>Elementi &lt;b&gt; e &lt;strong&gt;</h2>
+            <p>L'elemento &lt;b&gt; definisce un testo in grassetto, con la stessa importanza del resto del testo.</p>
+            <p>L'elemento &lt;strong&gt; definisce, invece, un testo più importante del resto del testo.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;&lt;b&gt;Testo in grassetto&lt;/b&gt;&lt;/p&gt;<br>
+                    &lt;p&gt;&lt;strong&gt;Questo testo è importante&lt;/strong&gt;&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.1.html">Risultato</a>
+                <p></p>
+            </div>
+            <!--Nota-->
+            <div class="w3-panel w3-leftbar w3-border-amber">
+                <h2>Nota</h2>
+                <p>Con entrambi i tag, il testo viene visualizzato in corsivo.<br>Una maggiore importanza fa in modo che i browser identifichino diversamente il testo in questione.</p>
+            </div>
+            <hr>
+            <h2>Elementi &lt;i&gt; e &lt;em&gt;</h2>
+            <p>L'elemento &lt;i&gt; definisce un testo in corsivo.<br>Questo tag è utilizzato spesso per indicare un termine tecnico, una frase in un'altra lingua, ecc.</p>
+            <p>L'elemento &lt;em&gt; definisce, invece, un testo enfatizzato, che di solito viene mostrato in corsivo.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;&lt;i&gt;Testo in corsivo&lt;/i&gt;&lt;/p&gt;<br>
+                    &lt;p&gt;&lt;em&gt;Testo enfatizzato&lt;/em&gt;&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.2.html">Risultato</a>
+                <p></p>
+            </div>
+            <hr>
+            <h2>L'elemento &lt;small&gt;</h2>
+            <p>L'elemento &lt;small&gt; definisce un testo più piccolo.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;&lt;small&gt;Testo più piccolo.&lt;/small&gt;&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.3.html">Risultato</a>
+                <p></p>
+            </div>
+            <hr>
+            <h2>L'elemento &lt;mark&gt;</h2>
+            <p>L'elemento &lt;mark&gt; definisce un testo evidenziato, di solito di giallo.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;Devi comprare &lt;mark&gt;latte e uova&lt;/mark&gt; per oggi pomeriggio.&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.4.html">Risultato</a>
+                <p></p>
+            </div>
+            <hr>
+            <h2>L'elemento &lt;del&gt;</h2>
+            <p>L'elemento &lt;del&gt; definisce un testo che è stato eliminato da una pagina.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;Il mio colore preferito è il &lt;del&gt;rosso&lt;/del&gt; giallo.&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.5.html">Risultato</a>
+                <p></p>
+            </div>
+            <hr>
+            <h2>L'elemento &lt;sub&gt;</h2>
+            <p>L'elemento &lt;sub&gt; definisce un testo che viene visualizzato mezza lettere sotto la linea del testo normale.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;La formula chimica dell'acqua è H&lt;sub&gt;2&lt;/sub&gt;O.&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.6.html">Risultato</a>
+                <p></p>
+            </div>
+            <hr>
+            <h2>L'elemento &lt;sup&gt;</h2>
+            <p>L'elemento &lt;sup&gt; definisce un testo che viene visualizzato mezza lettere sopra la linea del testo normale.</p>
+            <!--Blocco di codice-->
+            <div class="back w3-card w3-panel w3-round-large">
+                <h4>Esempio</h4>
+                <div class="w3-code w3-light-grey w3-round-large htmlHigh notranslate">
+                    &lt;p&gt;4 si può scrivere anche come 2&lt;sup&gt;2&lt;/sub&gt;.&lt;/p&gt;
+                </div>
+                <a class="w3-button w3-round-large w3-amber" href="es/7.7.html">Risultato</a>
+                <p></p>
+            </div>
+
+            <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+            <script>w3CodeColor();</script>
+        </div>
+        <div class="w3-row w3-padding w3-container">
+            <a href="html_paragrafi.html" class="w3-button w3-amber w3-round-large w3-left "><i class="fa fa-arrow-left"></i> Precedente</a>
+            <!--<a href="html_formattazione.html" class="w3-button w3-amber w3-round-large w3-right">Successivo <i class="fa fa-arrow-right"></i></a>-->
+        </div>
+    </div>
+</body>
+</html>
